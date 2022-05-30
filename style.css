@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center; 
+    background-color: lightyellow;
+    border: 4px goldenrod dashed;
+}
+p {
+    border-bottom: 2px yellowgreen solid;
+    border-left: 2px dotted yellowgreen;
+    border-right: 2px dotted yellowgreen;
+    background-image: linear-gradient(to right,rgb(181, 226, 181),white,rgb(181, 226, 181));
+}
+
+.link-header {
+    border: teal 1px solid;
+    border-radius: 10px;
+    background-color: rgb(0, 129, 129);
+    padding: 3px;
+    text-decoration: none;
+    color: lightyellow;
+}
+
+.link-header:hover {
+    border: teal 1px solid;
+    border-radius: 10px;
+    background-color: lightyellow;
+    padding: 3px;
+    text-decoration: none;
+    color: teal;
+}
+
+.link-nav {
+    border: teal 1px solid;
+    border-radius: 10px;
+    background-color: lightyellow;
+    padding: 3px;
+    text-decoration: none;
+    color: teal;
+
+}
+
+.link-nav:hover {
+    border: teal 1px solid;
+    border-radius: 10px;
+    background-color: rgb(0, 129, 129);
+    padding: 3px;
+    text-decoration: none;
+    color: lightyellow;
+}
+
+nav {
+    margin-top: 10px;
+}
+.link-text {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link-text:visited {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.link-text:hover {
+    text-decoration: none;
+    color: rgb(19, 114, 0);
+}
+
